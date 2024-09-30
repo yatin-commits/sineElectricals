@@ -14,9 +14,9 @@ const MainBanner = () => {
       <div className='p-4 m-1 font-[poppins] flex justify-center items-center flex-col '>
         <h1 className='text-7xl font-semibold tracking-widest temp'>Powering Your World</h1>
         <p className='p-4 text-3xl font-medium temp1'>50+ Projects And Still Counting...</p>
-        <Link to="/products"> 
+        <Link to="/contact"> 
           <button className='text-white font-semibold px-3 py-3 tracking-wider rounded-md bg-blue-700'>
-            Explore Our Products <FontAwesomeIcon icon={faArrowRight} />
+            Get Quote! <FontAwesomeIcon icon={faArrowRight} />
           </button>
         </Link>
 

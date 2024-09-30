@@ -11,3 +11,17 @@
     
     
   }
+
+  @media only screen and (max-width: 500px) {
+    .temp {
+      font-size: 30px !important;
+      text-align: center;
+    }
+    .temp1 {
+      font-size: 25px !important;
+      text-align: center;
+    }
+
+    
+    
+  }
