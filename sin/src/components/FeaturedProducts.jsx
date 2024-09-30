@@ -9,19 +9,19 @@ const FeaturedProducts = () => {
         <Products
           title="VFD Panels"
           imgSrc="./temp.jpg" // Replace with actual image path
-          className="w-full h-auto max-w-[200px] max-h-[200px] object-cover"
+          className="w-full aspect-square max-w-[150px] object-cover"
           description="High-quality Variable Frequency Drive Panels for efficient motor control."
         />
         <Products
           title="Servo Voltage Stabilizers"
           imgSrc="./temp.jpg" // Replace with actual image path
-          className="w-full h-[auto] max-w-[200px] max-h-[200px] object-cover"
+          className="w-full aspect-square max-w-[150px] object-cover"
           description="Reliable Servo Voltage Stabilizers to ensure stable voltage supply."
         />
         <Products
           title="Diesel Generator Set"
           imgSrc="./temp.jpg" // Replace with actual image path
-          className="w-full h-auto max-w-[200px] max-h-[200px] object-cover"
+          className="w-full aspect-square max-w-[150px] object-cover"
           description="Durable Diesel Generator Sets for uninterrupted power supply."
         />
         {/* Add more products if needed */}

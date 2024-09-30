@@ -6,10 +6,16 @@ const Products = ({ title, imgSrc, description }) => {
   return (
     <div className='p-2'>
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={imgSrc} />
+        {/* Adjust the image size and make it responsive */}
+        <Card.Img 
+          variant="top" 
+          src={imgSrc} 
+          style={{ objectFit: 'cover', height: '250px', width: '100%' }} // Set fixed height
+          className="img-fluid" // Bootstrap class to make image responsive
+        />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Text>{description}</Card.Text>
+          <Card.Text className='p-2 my-2'>{description}</Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
