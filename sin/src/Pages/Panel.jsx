@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from '../components/NavBar';
 import './single.css';
+import Footer from '../components/Footer';
 
 const Panel = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -119,6 +120,7 @@ const Panel = () => {
           </div>
         </div>
       )}
+      <Footer/>
     </>
   );
 }
