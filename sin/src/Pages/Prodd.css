@@ -1,0 +1,13 @@
+@media only screen and (max-width: 650px) {
+    .temp {
+      font-size: 40px;
+      text-align: center;
+    }
+    .temp1 {
+      /* font-size: 40px; */
+      text-align: center;
+    }
+
+    
+    
+  }

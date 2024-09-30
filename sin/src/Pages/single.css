@@ -1,0 +1,4 @@
+.custom-carousel-prev .carousel-control-prev-icon,
+.custom-carousel-next .carousel-control-next-icon {
+  filter: invert(100%); /* This makes the white arrow black */
+}
