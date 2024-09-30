@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const RequirementsForm = () => {
+const ContactEmbededForm = () => {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [requirements, setRequirements] = useState('');
@@ -70,4 +70,4 @@ const RequirementsForm = () => {
   );
 };
 
-export default RequirementsForm;
+export default ContactEmbededForm;

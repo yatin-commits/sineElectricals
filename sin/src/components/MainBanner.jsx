@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import FeaturedProducts from './FeaturedProducts';
-import ContactEmbededForm from './contactEmbededForm';
+import ContactEmbededForm from './ContactEmbededForm'
 import Services from './Services';
 import Footer from './Footer';
 import './banner.css'
