@@ -1,0 +1,49 @@
+/* General styling for About Us page */
+.about-us-banner {
+    background: url('./banner.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-us-content img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about-us-content img:hover {
+    transform: scale(1.05);
+  }
+  
+  .about-us-content h2 {
+    color: #1a202c;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .about-us-content p {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f7fafc;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .text-gray-600 {
+    color: black;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .about-us-banner {
+      height: 40vh;
+    }
+  
+    .about-us-content {
+      grid-template-columns: 1fr;
+    }
+  }
+  

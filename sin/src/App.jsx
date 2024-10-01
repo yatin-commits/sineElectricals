@@ -10,6 +10,7 @@ import Panel from './Pages/Panel';
 import Scada from './Pages/Scada';
 import Stablizers from './Pages/Stabilizers';
 import AllProducts from './Pages/AllProducts';
+import AboutUs from './Pages/AboutUs';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/panel" element={<Panel />} />
         <Route path="/scada" element={<Scada />} />
         <Route path="/all" element={<AllProducts />} />
+        <Route path="/about" element={<AboutUs />} />
 
       </Routes>
     </Router>

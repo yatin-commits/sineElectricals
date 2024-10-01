@@ -33,10 +33,12 @@ function NavBar() {
               <NavDropdown.Item as={Link} to="/Panel">Panel </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/stabilizers"> Stabilizers</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Scada">Scada</NavDropdown.Item>
+              {/* <NavDropdown.Item as={Link} to="/about">About US</NavDropdown.Item> */}
               
             </NavDropdown>
             
             <Nav.Link as={Link} to="/contact" className='text-white font-[poppins]'>Contact Us</Nav.Link>
+            <Nav.Link as={Link} to="/about" className='text-white font-[poppins]'>About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
