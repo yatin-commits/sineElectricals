@@ -34,9 +34,9 @@ const MainBanner = () => {
           </button>
         </div>
 
-        <Link to="/contact">
+        <Link to="/all">
           <button className='text-white font-semibold px-3 mt-4 py-3 tracking-wider rounded-md bg-blue-700'>
-            Get Quote! <FontAwesomeIcon icon={faArrowRight} />
+            Explore Products! <FontAwesomeIcon icon={faArrowRight} />
           </button>
         </Link>
       </div>

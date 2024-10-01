@@ -9,6 +9,7 @@ import Vcb from './Pages/Vcb';
 import Panel from './Pages/Panel';
 import Scada from './Pages/Scada';
 import Stablizers from './Pages/Stabilizers';
+import AllProducts from './Pages/AllProducts';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/vcb" element={<Vcb />} />
         <Route path="/panel" element={<Panel />} />
         <Route path="/scada" element={<Scada />} />
+        <Route path="/all" element={<AllProducts />} />
 
       </Routes>
     </Router>
