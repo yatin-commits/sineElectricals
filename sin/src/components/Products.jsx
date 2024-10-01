@@ -18,7 +18,7 @@ const Products = ({ title, imgSrc, description, link }) => {
           <Card.Title>{title}</Card.Title>
           <Card.Text className='p-2 my-2'>{description}</Card.Text>
           {/* Wrap Button inside Link */}
-          <Link to={link} target="_blank" rel="noopener noreferrer">
+          <Link to={link}  rel="noopener noreferrer">
             <Button variant="primary">
               Know More
             </Button>
