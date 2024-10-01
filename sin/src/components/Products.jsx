@@ -2,7 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const Products = ({ title, imgSrc, description }) => {
+const Products = ({ title, imgSrc, description, link }) => {
   return (
     <div className='p-2'>
       <Card style={{ width: '18rem' }}>
@@ -16,7 +16,10 @@ const Products = ({ title, imgSrc, description }) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text className='p-2 my-2'>{description}</Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          {/* Add dynamic link to the button */}
+          <Button variant="primary" href={link} target="_blank" rel="noopener noreferrer">
+            Know More
+          </Button>
         </Card.Body>
       </Card>
     </div>

@@ -11,18 +11,21 @@ const FeaturedProducts = () => {
           imgSrc="./temp.jpg" // Replace with actual image path
           className="w-full aspect-square max-w-[150px] object-cover"
           description="High-quality Variable Frequency Drive Panels for efficient motor control."
+          link="/vcb"
         />
         <Products
           title="Servo Voltage Stabilizers"
           imgSrc="./temp.jpg" // Replace with actual image path
           className="w-full aspect-square max-w-[150px] object-cover"
           description="Reliable Servo Voltage Stabilizers to ensure stable voltage supply."
+          link="/stabilizers"
         />
         <Products
-          title="Diesel Generator Set"
+          title="Scada System"
           imgSrc="./temp.jpg" // Replace with actual image path
           className="w-full aspect-square max-w-[150px] object-cover"
           description="Durable Diesel Generator Sets for uninterrupted power supply."
+          link="/scada"
         />
         {/* Add more products if needed */}
       </div>
