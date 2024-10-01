@@ -1,12 +1,7 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  build: {
-    rollupOptions: {
-      input: '/index.html',
-    }
-  },
-  server: {
-    historyApiFallback: true, // This helps with client-side routing
-  }
-});
+  plugins: [react()],
+})
