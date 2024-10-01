@@ -12,28 +12,28 @@ const AllProducts = () => {
   // Sample product data
   const products = [
     {
-      title: 'Product 1',
+      title: 'VFD Panels',
       imgSrc: './automated.png',
-      description: 'This is the description for product 1.',
-      link: '/product1',
+      description: 'High-quality Variable Frequency Drive Panels for efficient motor control.',
+      link: '/vcb',
     },
     {
-      title: 'Product 2',
-      imgSrc: './hand2',
-      description: 'This is the description for product 2.',
-      link: '/product2',    
+      title: 'Servo Voltage Stabilizers',
+      imgSrc: './automated.png',
+      description: 'Reliable Servo Voltage Stabilizers to ensure stable voltage supply.',
+      link: '/Stabilizers',    
     },
     {
-      title: 'Product 3',
-      imgSrc: 'https://via.placeholder.com/250',
-      description: 'This is the description for product 3.',
-      link: '/product3',
+      title: 'Scada System',
+      imgSrc: './automated.png',
+      description: 'Durable Diesel Generator Sets for uninterrupted power supply.',
+      link: '/scanda',
     },
     {
-      title: 'Product 4',
-      imgSrc: 'https://via.placeholder.com/250',
+      title: 'Panels',
+      imgSrc: './automated.png',
       description: 'This is the description for product 4.',
-      link: '/product4',
+      link: '/panel',
     },
   ];
 

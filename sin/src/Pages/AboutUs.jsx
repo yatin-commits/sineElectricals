@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from React Router
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import './AboutUs.css'; // Separate CSS for custom styling
@@ -12,6 +13,11 @@ const AboutUs = () => {
         <p className="text-xl text-black max-w-3xl">
           At Sin Engineering, we innovate and bring cutting-edge technology into reality. Our dedicated team strives for perfection, delivering modern solutions for the future.
         </p>
+        <Link to="/contact" className="mt-6">
+          <button className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition-colors">
+            Get In Touch
+          </button>
+        </Link>
       </section>
 
       <section className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 about-us-content">
@@ -51,8 +57,12 @@ const AboutUs = () => {
           <p className="text-gray-600 mt-4 text-lg">
             Our mission is to deliver innovative products and services that solve real-world challenges. We strive to provide solutions that exceed expectations, focusing on efficiency, design, and sustainability.
           </p>
+          
         </div>
+        
+        
       </section>
+      
 
       <Footer />
     </>
