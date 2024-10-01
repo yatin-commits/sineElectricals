@@ -20,7 +20,7 @@ const Products = () => {
     <>
       <NavBar />
 
-      <ParitcularProduct/>
+      {/* <ParitcularProduct/> */}
       
       <Footer />
     </>
