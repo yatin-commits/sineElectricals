@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 const AllProducts = () => {
   // Sample product data
@@ -64,6 +65,7 @@ const AllProducts = () => {
         ))}
       </Row>
     </Container>
+    <Footer/>
     </>
   );
 
