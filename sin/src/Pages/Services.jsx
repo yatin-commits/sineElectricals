@@ -38,7 +38,7 @@ const Services = () => {
       <div className='flex justify-evenly flex-wrap flex-row w-full '>
             <IndustriedWeServe title="AeroSpace"/>
             <IndustriedWeServe title="AirPorts" />
-            {/* <IndustriedWeServe title="Auto. Manufacturing"/> */}
+            <IndustriedWeServe title="Auto. Manufacturing"/>
             <IndustriedWeServe title="Battery "/>
             <IndustriedWeServe title="Chemical Inductry"/>
             <IndustriedWeServe title="Cement"/>
@@ -47,7 +47,7 @@ const Services = () => {
             <IndustriedWeServe title="Wind"/>
             <IndustriedWeServe title="Higher Education"/>
             <IndustriedWeServe title="Semi  conductors"/>
-            {/* <IndustriedWeServe title="Smart Urban Communities"/> */}
+            <IndustriedWeServe title="Smart Urban Communities"/>
             <IndustriedWeServe title="Tire Industry"/>
             <IndustriedWeServe title="Transport & Logistics"/>
             <IndustriedWeServe title="Data Centers"/>
