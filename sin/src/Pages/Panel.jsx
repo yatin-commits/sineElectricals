@@ -17,13 +17,13 @@ const Panel = () => {
   return (
     <>
       <NavBar />
-      <h1 className='text-4xl text-left px-4 my-4 underline'>Panel: A Comprehensive Guide!</h1>
+      <h1 className='text-4xl text-left px-4 my-4 underline'>LT Panels: Essential Features!</h1>
 
       {/* Flex container adjusted for responsiveness */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 px-4">
         {/* Carousel */}
         <div className="w-full md:w-[40%]">
-          <img src="./home-address.png" alt="" />
+          <img src="./hand-tools.png" alt="LT Panel" />
         </div>
 
         {/* Product Description */}
@@ -38,11 +38,11 @@ const Panel = () => {
             <tbody>
               <tr>
                 <td className="border border-gray-300 p-2">Description</td>
-                <td className="border border-gray-300 p-2">This advanced panel offers high durability and seamless performance for various industrial and residential applications.</td>
+                <td className="border border-gray-300 p-2">This LT panel ensures efficient and safe electrical power distribution for industrial and residential applications.</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Approx. Price</td>
-                <td className="border border-gray-300 p-2">$100</td>
+                <td className="border border-gray-300 p-2">$150</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Voltage</td>
@@ -50,20 +50,8 @@ const Panel = () => {
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Country of Origin</td>
-                <td className="border border-gray-300 p-2">USA</td>
+                <td className="border border-gray-300 p-2">India</td>
               </tr>
-              {/* <tr>
-                <td className="border border-gray-300 p-2">Features</td>
-                <td className="border border-gray-300 p-2">
-                  <ul className="list-disc list-inside">
-                    <li>Durable</li>
-                    <li>Easy to use</li>
-                    <li>High performance</li>
-                    <li>Energy efficient</li>
-                    <li>Compact design</li>
-                  </ul>
-                </td>
-              </tr> */}
             </tbody>
           </table>
           <div className="text-center my-4">
@@ -75,60 +63,57 @@ const Panel = () => {
       </div>
 
       {/* Detailed Description Section */}
-      <h1 className='font-[poppins] p-4 text-3xl'>Panel : Detailed Description</h1>
+      <h1 className='font-[poppins] p-4 text-3xl'>LT Panel : Detailed Description</h1>
       <p className='px-4'>
-        The panel is designed to meet the rigorous demands of modern infrastructure and industrial setups. Known for its robust build and outstanding performance, this panel is ideal for both commercial and residential applications. It offers exceptional versatility, durability, and ease of use. 
+        This LT panel is designed for modern electrical systems, offering safety, performance, and efficiency. It’s built to handle the demands of both residential and industrial applications while ensuring reliable power distribution.
       </p>
 
       {/* Key Features */}
       <div className='border-1 rounded-md border-black m-2'>
-      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Key Features</h2>
-      <p className='px-4'>
-        This panel is packed with features that make it stand out in the market:
-      </p>
-      <ul className="list-disc list-inside px-8">
-        <li> Durability: Built to last with high-quality materials that withstand wear and tear.</li>
-        <li> User-Friendly : Easy to install and operate with minimal maintenance required.</li>
-        <li> Energy Efficiency : Designed to minimize energy consumption without compromising performance.</li>
-        <li> Compact Size : Fits seamlessly into various environments due to its compact and lightweight design.</li>
-        <li> High Voltage Capacity : Capable of handling up to 220V, making it suitable for diverse applications.</li>
-        <li> Cost-Effective : Offers exceptional value for money with a long lifespan and low operational costs.</li>
-      </ul>
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Key Features</h2>
+        <p className='px-4'>
+          Some of the notable features of this LT panel include:
+        </p>
+        <ul className="list-disc list-inside px-8">
+          <li> Short-circuit protection: Ensures safety by preventing damage caused by sudden current spikes.</li>
+          <li> Overload protection: Prevents overheating by controlling excessive current flow.</li>
+          <li> Ground fault protection: Reduces the risk of electrical shock.</li>
+          <li> Energy efficiency: Optimized to reduce energy loss.</li>
+          <li> Durability: Designed with long-lasting materials to handle harsh environments.</li>
+        </ul>
       </div>
 
       {/* Applications */}
       <div className='border-1 rounded-md border-black m-2'>
-      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Applications</h2>
-      <p className='px-4'>
-        This versatile panel can be used in a wide range of applications, including:
-      </p>
-      <ul className="list-disc list-inside px-8">
-        <li>Residential buildings</li>
-        <li>Commercial complexes</li>
-        <li>Industrial facilities</li>
-        <li>Manufacturing plants</li>
-        <li>Power distribution systems</li>
-      </ul>
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Applications</h2>
+        <p className='px-4'>
+          The LT panel can be used in various settings, such as:
+        </p>
+        <ul className="list-disc list-inside px-8">
+          <li>Residential buildings</li>
+          <li>Commercial complexes</li>
+          <li>Industrial factories</li>
+          <li>Power distribution systems</li>
+        </ul>
       </div>
 
       {/* Types */}
       <div className='border-1 rounded-md border-black m-2'>
-      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Available Types</h2>
-      <p className='px-4'>
-        The panel is available in various types, each designed to meet specific needs:
-      </p>
-      <ul className="list-disc list-inside px-8">
-        <li>Standard Panel: Ideal for general use in residential and commercial buildings.</li>
-        <li>High-Voltage Panel: Specifically designed for industrial and manufacturing environments that require higher voltage capacity.</li>
-        <li>Smart Panel: Equipped with advanced features like remote monitoring and automation capabilities for smart homes and buildings.</li>
-      </ul>
-      
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Available Types</h2>
+        <p className='px-4'>
+          Choose from the different LT panel types available:
+        </p>
+        <ul className="list-disc list-inside px-8">
+          <li>Standard LT Panel: Best for regular applications in homes and offices.</li>
+          <li>High-Voltage LT Panel: Built for industries needing higher voltage capacities.</li>
+          <li>Smart LT Panel: Featuring remote monitoring for advanced applications.</li>
+        </ul>
       </div>
       <div className="text-center my-4">
-            <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">
-              Yes! I am Interested
-            </button>
-          </div>
+        <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">
+          Yes! I am Interested
+        </button>
+      </div>
 
       {/* Modal for the Form */}
       {isModalOpen && (
@@ -154,7 +139,6 @@ const Panel = () => {
               </div>
             </form>
           </div>
-          
         </div>
       )}
       <Footer/>

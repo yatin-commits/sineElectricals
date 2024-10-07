@@ -77,7 +77,9 @@ const Vcb = () => {
       {/* Detailed Description Section */}
       <h1 className='font-[poppins] p-4 text-3xl'>Vcb : Detailed Description</h1>
       <p className='px-4'>
-        The panel is designed to meet the rigorous demands of modern infrastructure and industrial setups. Known for its robust build and outstanding performance, this panel is ideal for both commercial and residential applications. It offers exceptional versatility, durability, and ease of use. 
+      A Reliable and Efficient Switching Device
+A Vacuum Circuit Breaker (VCB) is a type of electrical switchgear used to interrupt electric currents under normal or fault conditions. Unlike oil circuit breakers or air circuit breakers, VCBs utilize a vacuum to create a dielectric medium between the contacts, which significantly improves their performance and reliability.
+
       </p>
 
       {/* Key Features */}
