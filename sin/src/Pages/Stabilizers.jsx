@@ -42,11 +42,11 @@ const Stabilizers = () => {
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Approx. Price</td>
-                <td className="border border-gray-300 p-2">$150 - $500</td>
+                <td className="border border-gray-300 p-2">₹ 6,30,000</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Voltage</td>
-                <td className="border border-gray-300 p-2">220V / 440V</td>
+                <td className="border border-gray-300 p-2">329V / 440V</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Country of Origin</td>

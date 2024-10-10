@@ -42,15 +42,15 @@ const Vcb = () => {
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Approx. Price</td>
-                <td className="border border-gray-300 p-2">$100</td>
+                <td className="border border-gray-300 p-2">₹ 3,40,000</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Voltage</td>
-                <td className="border border-gray-300 p-2">220V</td>
+                <td className="border border-gray-300 p-2">33KV</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Country of Origin</td>
-                <td className="border border-gray-300 p-2">USA</td>
+                <td className="border border-gray-300 p-2">Germany</td>
               </tr>
               {/* <tr>
                 <td className="border border-gray-300 p-2">Features</td>

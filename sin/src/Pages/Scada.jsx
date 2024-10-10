@@ -26,8 +26,45 @@ const Scada = () => {
           <img src="./SCADA.jpg" alt="SCADA System" />
         </div>
 
-        {/* Product Description */}
+        
         <div className="w-full md:w-[60%] flex justify-center items-center flex-col">
+          <table className="table-auto border border-gray-300 w-full text-center">
+            <thead>
+              <tr>
+                <th className="border border-gray-300 p-2">Attribute</th>
+                <th className="border border-gray-300 p-2">Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-300 p-2">Description</td>
+                <td className="border border-gray-300 p-2">SCADA (Supervisory Control and Data Acquisition) systems monitor and control industrial processes from a central location.</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2">Approx. Price</td>
+                <td className="border border-gray-300 p-2">Depends On Order</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2">Voltage</td>
+                <td className="border border-gray-300 p-2">As per requirement</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 p-2">Country of Origin</td>
+                <td className="border border-gray-300 p-2">Depends On Order</td>
+              </tr>
+            </tbody>
+          </table>
+          <div className="text-center my-4">
+            <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">
+              Yes! I am Interested
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+        {/* Product Description */}
+        {/* <div className="w-full md:w-[60%] flex justify-center items-center flex-col">
           <table className="table-auto border border-gray-300 w-full text-center">
             <thead>
               <tr>
@@ -73,8 +110,8 @@ const Scada = () => {
               Yes! I am Interested
             </button>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
       {/* Detailed Description Section */}
       <h1 className='font-[poppins] p-4 text-3xl'>SCADA: Detailed Description</h1>
