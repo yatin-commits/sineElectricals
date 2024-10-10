@@ -40,9 +40,9 @@ function NavBar() {
   }
   id="panel-sub-dropdown"
 >
-  <NavDropdown.Item as={Link} to="/panel/control-panel">Control Panel</NavDropdown.Item>
-  <NavDropdown.Item as={Link} to="/panel/distribution-panel">Distribution Panel</NavDropdown.Item>
-  <NavDropdown.Item as={Link} to="/panel/power-panel">Power Panel</NavDropdown.Item>
+  <NavDropdown.Item as={Link} to="/mcc">MCC Panels</NavDropdown.Item>
+  <NavDropdown.Item as={Link} to="/vfd">VFD Panel</NavDropdown.Item>
+  <NavDropdown.Item as={Link} to="/it">I.T Panel</NavDropdown.Item>
 </NavDropdown>
 
               

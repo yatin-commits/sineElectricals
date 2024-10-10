@@ -11,7 +11,9 @@ import Scada from './Pages/Scada';
 import Stablizers from './Pages/Stabilizers';
 import AllProducts from './Pages/AllProducts';
 import AboutUs from './Pages/AboutUs';
-
+import MCC from './Pages/MCC';
+import IT from './Pages/IT';
+import VFD from './Pages/VFD';
 const App = () => {
   return (
     <Router> {/* Wrap your Routes inside BrowserRouter */}
@@ -26,7 +28,10 @@ const App = () => {
         <Route path="/panel" element={<Panel />} />
         <Route path="/scada" element={<Scada />} />
         <Route path="/all" element={<AllProducts />} />
+        <Route path="/mcc" element={<MCC/>} />
+        <Route path="/it" element={<IT/>} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/vfd" element={<VFD/>} />
 
       </Routes>
     </Router>
