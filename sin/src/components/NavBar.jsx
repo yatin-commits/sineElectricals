@@ -30,11 +30,24 @@ function NavBar() {
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item as={Link} to="/vcb">VCB (Vacuum Circuit Breaker)</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Panel">Panel </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/stabilizers"> Stabilizers</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Scada">Scada</NavDropdown.Item>
-              {/* <NavDropdown.Item as={Link} to="/about">About US</NavDropdown.Item> */}
               
+              {/* Subdropdown for Panel */}
+              <NavDropdown 
+  title={
+    <span className='panel-title'> {/* Custom class for Panel title */}
+      Panel <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
+    </span>
+  }
+  id="panel-sub-dropdown"
+>
+  <NavDropdown.Item as={Link} to="/panel/control-panel">Control Panel</NavDropdown.Item>
+  <NavDropdown.Item as={Link} to="/panel/distribution-panel">Distribution Panel</NavDropdown.Item>
+  <NavDropdown.Item as={Link} to="/panel/power-panel">Power Panel</NavDropdown.Item>
+</NavDropdown>
+
+              
+              <NavDropdown.Item as={Link} to="/stabilizers">Stabilizers</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/scada">Scada</NavDropdown.Item>
             </NavDropdown>
             
             <Nav.Link as={Link} to="/contact" className='text-white font-[poppins]'>Contact Us</Nav.Link>

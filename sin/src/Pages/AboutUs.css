@@ -1,7 +1,7 @@
 /* General styling for About Us page */
 .about-us-banner {
     background: url('./banner.jpg') center/cover no-repeat;
-    height: 60vh;
+    /* height: 60vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@
   /* Media Queries */
   @media (max-width: 768px) {
     .about-us-banner {
-      height: 40vh;
+      /* height: 40vh; */
     }
   
     .about-us-content {

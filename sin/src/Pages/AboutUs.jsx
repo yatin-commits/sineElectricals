@@ -8,6 +8,7 @@ const AboutUs = () => {
   return (
     <>
       <NavBar />
+
       <section className="about-us-banner p-4 flex justify-center items-center flex-col text-center">
         <h1 className="text-6xl font-bold font-[poppins] text-black mb-4">Who We Are?</h1>
         <p className="text-xl text-black max-w-3xl">

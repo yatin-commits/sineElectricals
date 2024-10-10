@@ -3,6 +3,13 @@
     position: relative;
   }
   
+  /* Style for the "Panel" title text */
+.panel-title {
+  color: black !important;
+  padding-left: 18px; /* Force the color to black */
+}
+
+  
   .nav-link::after {
     content: '';
     display: block;
