@@ -23,7 +23,7 @@ const Panel = () => {
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 px-4">
         {/* Carousel */}
         <div className="w-full md:w-[40%]">
-          <img src="./hand-tools.png" alt="LT Panel" />
+          <img src="./MCC.jpg" alt="LT Panel" />
         </div>
 
         {/* Product Description */}

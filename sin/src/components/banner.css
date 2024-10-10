@@ -2,8 +2,9 @@
 
 .carousel-inner {
   width: 100%;
-  height: 400px !important;
-  padding: 20px;
+  /* height: 400px !important; */
+  padding: 10px;
+  /* border-radius: 10px; */
 }
 @media only screen and (max-width: 650px) {
   .temp {
@@ -72,7 +73,7 @@
   }
   .imgg{
     height: 250px;
-    padding: 20px;
+    /* padding: 20px; */
   }
 }
 

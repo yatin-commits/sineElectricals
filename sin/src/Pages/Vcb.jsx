@@ -23,7 +23,7 @@ const Vcb = () => {
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 px-4">
         {/* Carousel */}
         <div className="w-full md:w-[40%]">
-          <img src="./phone-call.png" alt="" />
+          <img src="./VCB.jpg" alt="" />
         </div>
 
         {/* Product Description */}

@@ -23,7 +23,7 @@ const Scada = () => {
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 px-4">
         {/* Carousel */}
         <div className="w-full md:w-[40%]">
-          <img src="./hand-tools.png" alt="SCADA System" />
+          <img src="./SCADA.jpg" alt="SCADA System" />
         </div>
 
         {/* Product Description */}

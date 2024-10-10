@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Make sure to import Link
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className='mb-4 md:mb-0'>
           <h4 className='font-bold mb-2'>About Us</h4>
           <p className='text-sm'>
-            Sre Electricals is a leading provider of heavy machinery and electrical <br></br>solutions for various industries.
+            Sine Electricals is a leading provider of heavy machinery and electrical <br /> solutions for various industries.
           </p>
         </div>
 
@@ -16,10 +17,11 @@ const Footer = () => {
         <div className='mb-4 md:mb-0'>
           <h4 className='font-bold mb-2'>Quick Links</h4>
           <ul className='space-y-3'>
-            <li><a href="#products" className='text-sm hover:underline'>Products</a></li>
-            <li><a href="#services" className='text-sm hover:underline'>Services</a></li>
-            <li><a href="#about" className='text-sm hover:underline'>About</a></li>
-            <li><a href="#contact" className='text-sm hover:underline'>Contact</a></li>
+            <li><Link to="/" className='text-sm hover:underline'>Home</Link></li>
+            <li><Link to="/all" className='text-sm hover:underline'>Products</Link></li>
+            <li><Link to="/services" className='text-sm hover:underline'>Services</Link></li>
+            <li><Link to="/about" className='text-sm hover:underline'>About Us</Link></li>
+            <li><Link to="/contact" className='text-sm hover:underline'>Contact Us</Link></li>
           </ul>
         </div>
 
@@ -27,15 +29,15 @@ const Footer = () => {
         <div>
           <h4 className='font-bold mb-2'>Contact Us</h4>
           <p className='text-sm space-y-3'>
-            <span className='block'>📞 +1 (123) 456-7890</span>
-            <span className='block'>✉️ <a href="mailto:info@sreelectricals.com" className='hover:underline'>info@sreelectricals.com</a></span>
-            <span className='block'>📍 123 Industrial Ave, City, Country</span>
+            <span className='block'>📞 +91 9134353998</span>
+            <span className='block'>✉️ <a href="mailto:sineelect@gmail.com" className='hover:underline'>sineelect@gmail.com</a></span>
+            <span className='block'>📍 A/24 Adityapur Industrial Area Jamshedpur, Jharkhand</span>
           </p>
         </div>
       </div>
       
       <div className='text-center mt-4'>
-        <p className='text-sm'>© {new Date().getFullYear()} Sre Electricals. All rights reserved.</p>
+        <p className='text-sm'>© {new Date().getFullYear()} Sine Electricals. All rights reserved.</p>
       </div>
     </footer>
   );

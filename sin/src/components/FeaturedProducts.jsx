@@ -8,21 +8,21 @@ const FeaturedProducts = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 m-2'>
         <Products
           title="VFD Panels"
-          imgSrc="./temp.jpg" // Replace with actual image path
+          imgSrc="./VCB.jpg" // Replace with actual image path
           className="w-full aspect-square max-w-[150px] object-cover"
           description="High-quality Variable Frequency Drive Panels for efficient motor control."
           link="/vcb"
         />
         <Products
           title="Servo Voltage Stabilizers"
-          imgSrc="./temp.jpg" // Replace with actual image path
+          imgSrc="./stab.jpg" // Replace with actual image path
           className="w-full aspect-square max-w-[150px] object-cover"
           description="Reliable Servo Voltage Stabilizers to ensure stable voltage supply."
           link="/stabilizers"
         />
         <Products
           title="Scada System"
-          imgSrc="./temp.jpg" // Replace with actual image path
+          imgSrc="./SCADA.jpg" // Replace with actual image path
           className="w-full aspect-square max-w-[150px] object-cover"
           description="Durable Diesel Generator Sets for uninterrupted power supply."
           link="/scada"

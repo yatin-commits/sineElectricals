@@ -13,26 +13,26 @@ const AllProducts = () => {
   const products = [
     {
       title: 'VFD Panels',
-      imgSrc: './automated.png',
-      description: 'High-quality Variable Frequency Drive Panels for efficient motor control.',
+      imgSrc: './VCB.jpg',
+      description: 'This advanced panel offers high durability and seamless performance for various industrial and residential applications.',
       link: '/vcb',
     },
     {
       title: 'Servo Voltage Stabilizers',
-      imgSrc: './automated.png',
-      description: 'Reliable Servo Voltage Stabilizers to ensure stable voltage supply.',
+      imgSrc: './stab.jpg',
+      description: 'Servo Voltage Stabilizers maintain a constant output voltage, protecting sensitive equipment from fluctuations.',
       link: '/Stabilizers',    
     },
     {
       title: 'Scada System',
-      imgSrc: './automated.png',
-      description: 'Durable Diesel Generator Sets for uninterrupted power supply.',
+      imgSrc: './SCADA.jpg  ',
+      description: 'SCADA (Supervisory Control and Data Acquisition) systems monitor and control industrial processes from a central location.',
       link: '/scanda',
     },
     {
       title: 'Panels',
-      imgSrc: './automated.png',
-      description: 'This is the description for product 4.',
+      imgSrc: './MCC.jpg',
+      description: 'This LT panel ensures efficient and safe electrical power distribution for industrial and residential applications',
       link: '/panel',
     },
   ];
@@ -49,7 +49,7 @@ const AllProducts = () => {
               <Card.Img 
                 variant="top" 
                 src={product.imgSrc} 
-                style={{ objectFit: 'cover', height: '250px' }}
+                style={{ objectFit: 'cover', height: 'auto' }}
               />
               <Card.Body>
                 <Card.Title className='p-2'>{product.title}</Card.Title>

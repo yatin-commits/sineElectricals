@@ -11,17 +11,17 @@ import { Link } from 'react-router-dom';
 const MainBanner = () => {
   return (
     <>
-      <div className='p-4 m-1 font-[poppins] flex justify-center items-center flex-col '>
-        <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+      <div className='p-0 m-1 font-[poppins] flex justify-center items-center flex-col rounded-md '>
+        <div id="carouselExample" className="carousel rounded-md slide" data-bs-ride="carousel">
           <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src="./automated.png" className="d-block imgg w-40" alt="Banner 1" />
+            <div className="carousel-item active rounded-md">
+              <img src="./b1.jpg" className="d-block imgg w-40 rounded-lg" alt="Banner 1" />
             </div>
             <div className="carousel-item">
-              <img src="./home-address.png" className="d-block h-100 imgg w-100" alt="Banner 2" />
+              <img src="./b2.jpg" className="d-block rounded-lg h-100 imgg w-100" alt="Banner 2" />
             </div>
             <div className="carousel-item">
-              <img src="./service.png" className="d-block imgg w-100" alt="Banner 3" />
+              <img src="./b3.jpg" className="d-block rounded-lg imgg w-100" alt="Banner 3" />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

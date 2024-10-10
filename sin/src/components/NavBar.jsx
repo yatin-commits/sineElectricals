@@ -13,7 +13,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="custom-navbar"> {/* Custom background class */}
       <Container>
-        <Navbar.Brand as={Link} to="/" className="font-[poppins] text-white font-bold">Sin Electricals</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" className="font-[poppins] text-white font-bold">Sine Electricals</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
