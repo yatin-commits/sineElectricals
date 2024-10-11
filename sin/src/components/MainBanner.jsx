@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import FeaturedProducts from './FeaturedProducts';
@@ -9,6 +9,20 @@ import './banner.css';
 import { Link } from 'react-router-dom';
 
 const MainBanner = () => {
+  useEffect(() => {
+    // Initialize the Bootstrap carousel
+    const myCarousel = document.querySelector('#carouselExample');
+    const carousel = new window.bootstrap.Carousel(myCarousel, {
+      interval: 2000, // Set interval to 2 seconds
+       // Optional: Pauses the carousel when hovered
+    });
+
+    // Optional: Clean up the carousel instance on component unmount
+    return () => {
+      carousel.dispose();
+    };
+  }, []);
+
   return (
     <>
       <div className='p-0 m-1 font-[poppins] flex justify-center items-center flex-col rounded-md '>

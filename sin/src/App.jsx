@@ -15,6 +15,9 @@ import MCC from './Pages/MCC';
 // import IT from './Pages/IT';
 import LTPanel from './Pages/LTPanel';
 import VFD from './Pages/VFD';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 const App = () => {
   return (
     <Router> {/* Wrap your Routes inside BrowserRouter */}
