@@ -116,7 +116,8 @@ const MCC = () => {
       {/* Detailed Description Section */}
       <h1 className='font-[poppins] p-4 text-3xl'>MCC: Detailed Description</h1>
       <p className='px-4'>
-        MCC systems are essential for industries such as manufacturing, power generation, water treatment, and transportation. They allow operators to monitor and control processes from a central location, enhancing efficiency, safety, and decision-making.
+      A Motor Control Center (MCC) is a centralized location for controlling and protecting electric motors. It is a 
+      critical component in industrial and commercial settings. Here are some of its essential features: 
       </p>
 
       {/* Key Features */}
@@ -126,41 +127,47 @@ const MCC = () => {
           MCC systems provide various features that optimize industrial processes:
         </p>
         <ul className="list-disc list-inside px-8">
-          <li>Data acquisition and processing from field devices</li>
-          <li>Real-time monitoring and control of processes</li>
-          <li>Alarm management for critical events</li>
-          <li>Historical data storage for analysis</li>
-          <li>Remote access through IoT integration</li>
+          <li>MCCs house various devices to control motors, such as starters, contactors, relays, 
+          and overload relays.</li>
+          <li>They distribute power to individual motors or groups of motors. </li>
+          <li>MCCs protect motors from faults like short circuits, overloads, and phase imbalances. </li>
+          <li> They are designed to be modular, allowing for easy expansion or modification.</li>
+          {/* <li>Remote access through IoT integration</li> */}
         </ul>
       </div>
 
       {/* Applications */}
       <div className='border-1 rounded-md border-black m-2'>
-        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Applications</h2>
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Advanced Features</h2>
         <p className='px-4'>
           MCC systems are used across various industries to improve operations and efficiency:
         </p>
         <ul className="list-disc list-inside px-8">
-          <li>Power generation plants</li>
-          <li>Water treatment facilities</li>
-          <li>Manufacturing processes</li>
-          <li>Transportation networks</li>
-          <li>Oil and gas facilities</li>
+          <li> <b>Remote Monitoring</b>: Some MCCs can be integrated with SCADA (Supervisory Control and Data Acquisition) 
+          systems for remote monitoring and control.</li>
+          <li> <b>Energy Efficiency</b>: Features like power factor correction and energy-saving controls can improve overall 
+          energy efficiency. </li>
+          <li><b>Safety Features</b>: Safety interlocks, emergency stop buttons, and ground fault protection are essential for 
+          safety. </li>
+          <li><b>Customizability</b>: MCCs can be tailored to specific applications and requirements. </li>
+          <li><b>Environmental Protection</b>: Features like IP ratings and cooling systems protect components from 
+          environmental factors. </li>
         </ul>
       </div>
 
       {/* Trends */}
       <div className='border-1 rounded-md border-black m-2'>
-        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Trends in MCC Systems</h2>
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Benefits of MCCs</h2>
         <p className='px-4'>
           Recent trends are shaping the future of MCC systems:
         </p>
         <ul className="list-disc list-inside px-8">
-          <li>Integration of IoT devices for enhanced connectivity</li>
-          <li>Cloud computing for scalable and flexible systems</li>
-          <li>AI for predictive maintenance and anomaly detection</li>
-          <li>Enhanced cybersecurity to protect against cyber threats</li>
+          <li>Centralized control and protection optimize motor performance. </li>
+          <li>Reduces the risk of electrical hazards and accidents.</li>
+          <li>Centralized maintenance and troubleshooting simplify tasks.</li>
+          <li>Easily accommodate changes in motor loads or requirements. </li>
         </ul>
+        <br></br>
       </div>
       <div className="text-center my-4">
         <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">

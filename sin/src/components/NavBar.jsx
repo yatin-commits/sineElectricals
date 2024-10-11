@@ -40,9 +40,9 @@ function NavBar() {
   }
   id="panel-sub-dropdown"
 >
-  <NavDropdown.Item as={Link} to="/mcc">MCC Panels</NavDropdown.Item>
+  <NavDropdown.Item as={Link} to="/mcc">Motor Control Center (MCC) </NavDropdown.Item>
   <NavDropdown.Item as={Link} to="/vfd">VFD Panel</NavDropdown.Item>
-  <NavDropdown.Item as={Link} to="/it">I.T Panel</NavDropdown.Item>
+  <NavDropdown.Item as={Link} to="/it">Low-tension (LT) panels</NavDropdown.Item>
 </NavDropdown>
 
               

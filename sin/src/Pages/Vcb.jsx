@@ -52,18 +52,6 @@ const Vcb = () => {
                 <td className="border border-gray-300 p-2">Country of Origin</td>
                 <td className="border border-gray-300 p-2">Germany</td>
               </tr>
-              {/* <tr>
-                <td className="border border-gray-300 p-2">Features</td>
-                <td className="border border-gray-300 p-2">
-                  <ul className="list-disc list-inside">
-                    <li>Durable</li>
-                    <li>Easy to use</li>
-                    <li>High performance</li>
-                    <li>Energy efficient</li>
-                    <li>Compact design</li>
-                  </ul>
-                </td>
-              </tr> */}
             </tbody>
           </table>
           <div className="text-center my-4">
@@ -75,62 +63,56 @@ const Vcb = () => {
       </div>
 
       {/* Detailed Description Section */}
-      <h1 className='font-[poppins] p-4 text-3xl'>Vcb : Detailed Description</h1>
+      <h1 className='font-[poppins] p-4 text-3xl'>Vacuum Circuit Breaker (VCB): A Reliable and Efficient Switching Device</h1>
       <p className='px-4'>
-      A Reliable and Efficient Switching Device
-A Vacuum Circuit Breaker (VCB) is a type of electrical switchgear used to interrupt electric currents under normal or fault conditions. Unlike oil circuit breakers or air circuit breakers, VCBs utilize a vacuum to create a dielectric medium between the contacts, which significantly improves their performance and reliability.
-
+        A Vacuum Circuit Breaker (VCB) is a type of electrical switchgear used to interrupt electric currents under normal or fault conditions. Unlike oil circuit breakers or air circuit breakers, VCBs utilize a vacuum to create a dielectric medium between the contacts, which significantly improves their performance and reliability.
       </p>
 
-      {/* Key Features */}
-      <div className='border-1 rounded-md border-black m-2'>
-      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Key Features</h2>
-      <p className='px-4'>
-        This panel is packed with features that make it stand out in the market:
-      </p>
+      {/* Key Components */}
+      <div className='border-1 rounded-md border-black py-2 my-2 mx-2'>
+      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Key Components of a VCB</h2>
       <ul className="list-disc list-inside px-8">
-        <li> Durability: Built to last with high-quality materials that withstand wear and tear.</li>
-        <li> User-Friendly : Easy to install and operate with minimal maintenance required.</li>
-        <li> Energy Efficiency : Designed to minimize energy consumption without compromising performance.</li>
-        <li> Compact Size : Fits seamlessly into various environments due to its compact and lightweight design.</li>
-        <li> High Voltage Capacity : Capable of handling up to 220V, making it suitable for diverse applications.</li>
-        <li> Cost-Effective : Offers exceptional value for money with a long lifespan and low operational costs.</li>
+        <li><strong>Vacuum Interrupter:</strong> This is the heart of the VCB, containing a pair of contacts enclosed in a vacuum chamber. When the contacts are separated, the vacuum creates a high-voltage gradient, causing the current to deionize and arc to extinguish.</li>
+        <li><strong>Operating Mechanism:</strong> This mechanism is responsible for opening and closing the contacts. It can be either manual or motorized, depending on the application.</li>
+        <li><strong>Spring Energy Storage:</strong> This component stores the energy required to open the contacts quickly and forcefully during a fault.</li>
+        <li><strong>Control Circuit:</strong> This circuit monitors the VCB's status and provides control signals to the operating mechanism.</li>
+      </ul>
+      </div>
+
+      {/* Advantages */}
+      <div className='border-1 rounded-md border-black p-2 m-2'>
+      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Advantages of VCBs</h2>
+      <ul className="list-disc list-inside px-8">
+        <li><strong>High Reliability:</strong> VCBs are highly reliable due to the absence of oil or gas, which can degrade over time.</li>
+        <li><strong>Fast Operation:</strong> They can interrupt faults very quickly, minimizing damage to equipment and reducing downtime.</li>
+        <li><strong>Low Maintenance:</strong> VCBs require minimal maintenance compared to other types of circuit breakers.</li>
+        <li><strong>Compact Size:</strong> They are relatively small and lightweight, making them suitable for various applications.</li>
+        <li><strong>Environmentally Friendly:</strong> VCBs do not use harmful substances like SF6 gas, making them more environmentally friendly.</li>
       </ul>
       </div>
 
       {/* Applications */}
-      <div className='border-1 rounded-md border-black m-2'>
-      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Applications</h2>
-      <p className='px-4'>
-        This versatile panel can be used in a wide range of applications, including:
-      </p>
+      <div className='border-1 rounded-md border-black p-2 m-2'>
+      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Applications of VCBs</h2>
       <ul className="list-disc list-inside px-8">
-        <li>Residential buildings</li>
-        <li>Commercial complexes</li>
-        <li>Industrial facilities</li>
-        <li>Manufacturing plants</li>
-        <li>Power distribution systems</li>
+        <li><strong>Power Distribution:</strong> VCBs are commonly used in power distribution systems, including substations and feeders.</li>
+        <li><strong>Industrial Plants:</strong> They are essential for protecting industrial machinery and equipment from electrical faults.</li>
+        <li><strong>Renewable Energy Systems:</strong> VCBs are used in solar and wind power plants to switch and protect the generated electricity.</li>
+        <li><strong>High-Voltage Applications:</strong> VCBs can be designed for high-voltage applications, such as transmission lines.</li>
       </ul>
       </div>
 
-      {/* Types */}
-      <div className='border-1 rounded-md border-black m-2'>
-      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Available Types</h2>
+      {/* Conclusion */}
+      <h2 className='font-[poppins] px-4 py-2 text-2xl'>Conclusion</h2>
       <p className='px-4'>
-        The panel is available in various types, each designed to meet specific needs:
+        In conclusion, Vacuum Circuit Breakers offer a reliable and efficient solution for interrupting electric currents. Their compact size, fast operation, and low maintenance requirements make them a popular choice in various industrial and power distribution applications.
       </p>
-      <ul className="list-disc list-inside px-8">
-        <li>Standard Panel: Ideal for general use in residential and commercial buildings.</li>
-        <li>High-Voltage Panel: Specifically designed for industrial and manufacturing environments that require higher voltage capacity.</li>
-        <li>Smart Panel: Equipped with advanced features like remote monitoring and automation capabilities for smart homes and buildings.</li>
-      </ul>
-      
-      </div>
+
       <div className="text-center my-4">
-            <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">
-              Yes! I am Interested
-            </button>
-          </div>
+        <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">
+          Yes! I am Interested
+        </button>
+      </div>
 
       {/* Modal for the Form */}
       {isModalOpen && (
@@ -156,10 +138,9 @@ A Vacuum Circuit Breaker (VCB) is a type of electrical switchgear used to interr
               </div>
             </form>
           </div>
-          
         </div>
       )}
-      <Footer/>
+      <Footer />
     </>
   );
 }

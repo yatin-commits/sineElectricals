@@ -12,7 +12,8 @@ import Stablizers from './Pages/Stabilizers';
 import AllProducts from './Pages/AllProducts';
 import AboutUs from './Pages/AboutUs';
 import MCC from './Pages/MCC';
-import IT from './Pages/IT';
+// import IT from './Pages/IT';
+import LTPanel from './Pages/LTPanel';
 import VFD from './Pages/VFD';
 const App = () => {
   return (
@@ -29,7 +30,7 @@ const App = () => {
         <Route path="/scada" element={<Scada />} />
         <Route path="/all" element={<AllProducts />} />
         <Route path="/mcc" element={<MCC/>} />
-        <Route path="/it" element={<IT/>} />
+        <Route path="/it" element={<LTPanel/>} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/vfd" element={<VFD/>} />
 

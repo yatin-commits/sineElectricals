@@ -17,152 +17,74 @@ const VFD = () => {
   return (
     <>
       <NavBar />
-      <h1 className='text-4xl text-left px-4 my-4 underline'>VFD: A Comprehensive Guide!</h1>
+      <h1 className='text-4xl text-left px-4 my-4 underline'>VFD Panels: A Comprehensive Overview</h1>
 
       {/* Flex container adjusted for responsiveness */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 px-4">
         {/* Carousel */}
         <div className="w-full md:w-[40%]">
-        <img src="./VFD panel.jpg" alt="VFD System" style={{ height: '300px',width:'auto', objectFit: 'cover' }} />
-
+        <img src="./VFD panel.jpg" alt="VFD Panel" style={{ height: '300px',width:'auto', objectFit: 'cover' }} />
         </div>
-
-        
-        {/* <div className="w-full md:w-[60%] flex justify-center items-center flex-col">
-          <table className="table-auto border border-gray-300 w-full text-center">
-            <thead>
-              <tr>
-                <th className="border border-gray-300 p-2">Attribute</th>
-                <th className="border border-gray-300 p-2">Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border border-gray-300 p-2">Description</td>
-                <td className="border border-gray-300 p-2">VFD (Supervisory Control and Data Acquisition) systems monitor and control industrial processes from a central location.</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 p-2">Approx. Price</td>
-                <td className="border border-gray-300 p-2">Depends On Order</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 p-2">Voltage</td>
-                <td className="border border-gray-300 p-2">As per requirement</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 p-2">Country of Origin</td>
-                <td className="border border-gray-300 p-2">Depends On Order</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="text-center my-4">
-            <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">
-              Yes! I am Interested
-            </button>
-          </div>
-        </div> */}
       </div>
 
-
-        {/* Product Description */}
-        {/* <div className="w-full md:w-[60%] flex justify-center items-center flex-col">
-          <table className="table-auto border border-gray-300 w-full text-center">
-            <thead>
-              <tr>
-                <th className="border border-gray-300 p-2">Attribute</th>
-                <th className="border border-gray-300 p-2">Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border border-gray-300 p-2">Description</td>
-                <td className="border border-gray-300 p-2">
-                  VFD (Supervisory Control and Data Acquisition) systems monitor and control industrial processes from a central location.
-                </td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 p-2">Key Components</td>
-                <td className="border border-gray-300 p-2">
-                  RTUs, HMI, Communication Network, Database, Application Software
-                </td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 p-2">Functions</td>
-                <td className="border border-gray-300 p-2">
-                  Data acquisition, processing, control, visualization, alarm management
-                </td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 p-2">Applications</td>
-                <td className="border border-gray-300 p-2">
-                  Power generation, water treatment, manufacturing, transportation, oil and gas
-                </td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 p-2">Trends</td>
-                <td className="border border-gray-300 p-2">
-                  IoT, cloud computing, AI, cybersecurity
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="text-center my-4">
-            <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">
-              Yes! I am Interested
-            </button>
-          </div>
-        </div> */}
-      {/* </div> */}
-
       {/* Detailed Description Section */}
-      <h1 className='font-[poppins] p-4 text-3xl'>VFD: Detailed Description</h1>
+      <h1 className='font-[poppins] p-4 text-3xl'>VFD Panels: Detailed Description</h1>
       <p className='px-4'>
-        VFD systems are essential for industries such as manufacturing, power generation, water treatment, and transportation. They allow operators to monitor and control processes from a central location, enhancing efficiency, safety, and decision-making.
+        VFD panels (Variable Frequency Drive panels) are essential components in modern industrial applications. They provide precise control over the speed and torque of electric motors, offering significant energy savings, improved efficiency, and enhanced process control.
       </p>
 
-      {/* Key Features */}
+      {/* Key Components */}
       <div className='border-1 rounded-md border-black m-2'>
-        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Key Features</h2>
-        <p className='px-4'>
-          VFD systems provide various features that optimize industrial processes:
-        </p>
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Key Components of a VFD Panel</h2>
         <ul className="list-disc list-inside px-8">
-          <li>Data acquisition and processing from field devices</li>
-          <li>Real-time monitoring and control of processes</li>
-          <li>Alarm management for critical events</li>
-          <li>Historical data storage for analysis</li>
-          <li>Remote access through IoT integration</li>
+          <li><strong>VFD:</strong> Converts fixed-frequency AC power into variable-frequency AC power.</li>
+          <li><strong>Input Transformer:</strong> Matches the input voltage to the VFD's requirements.</li>
+          <li><strong>Input Filter:</strong> Filters out harmonics generated by the VFD to ensure a clean power supply.</li>
+          <li><strong>Output Filter:</strong> Reduces harmonics on the output side.</li>
+          <li><strong>Control Panel:</strong> Includes switches, buttons, and displays for operator interaction.</li>
+          <li><strong>Cooling System:</strong> A fan or heat exchanger to dissipate heat generated by the VFD.</li>
+        </ul>
+      </div>
+
+      {/* Benefits */}
+      <div className='border-1 rounded-md border-black m-2'>
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Benefits of Using VFD Panels</h2>
+        <ul className="list-disc list-inside px-8">
+          <li>Energy Efficiency: Adjusting motor speed to match load requirements saves energy.</li>
+          <li>Improved Process Control: Precise control over motor speed enhances product quality.</li>
+          <li>Reduced Maintenance: Less mechanical stress extends motor life.</li>
+          <li>Increased Productivity: Optimized equipment performance increases productivity.</li>
+          <li>Reduced Noise and Vibration: Improves the working environment.</li>
         </ul>
       </div>
 
       {/* Applications */}
       <div className='border-1 rounded-md border-black m-2'>
-        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Applications</h2>
-        <p className='px-4'>
-          VFD systems are used across various industries to improve operations and efficiency:
-        </p>
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Applications of VFD Panels</h2>
         <ul className="list-disc list-inside px-8">
-          <li>Power generation plants</li>
-          <li>Water treatment facilities</li>
-          <li>Manufacturing processes</li>
-          <li>Transportation networks</li>
-          <li>Oil and gas facilities</li>
+          <li>Conveyor Systems: Controlling speed to match production rates.</li>
+          <li>Pumps and Fans: Adjusting speed to match demand and save energy.</li>
+          <li>Machine Tools: Precise control of spindle speeds and feed rates.</li>
+          <li>Textile Machinery: Optimizing speed in weaving and spinning machines.</li>
+          <li>HVAC Systems: Controlling fan and pump speeds to maintain temperature and humidity.</li>
         </ul>
       </div>
 
-      {/* Trends */}
+      {/* Choosing the Right VFD Panel */}
       <div className='border-1 rounded-md border-black m-2'>
-        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Trends in VFD Systems</h2>
+        <h2 className='font-[poppins] px-4 py-2 text-2xl'>Choosing the Right VFD Panel</h2>
         <p className='px-4'>
-          Recent trends are shaping the future of VFD systems:
+          When selecting a VFD panel, consider the following factors:
         </p>
         <ul className="list-disc list-inside px-8">
-          <li>Integration of IoT devices for enhanced connectivity</li>
-          <li>Cloud computing for scalable and flexible systems</li>
-          <li>AI for predictive maintenance and anomaly detection</li>
-          <li>Enhanced cybersecurity to protect against cyber threats</li>
+          <li>Motor Power: The size and power rating of the motor to be controlled.</li>
+          <li>Voltage: The input and output voltage requirements.</li>
+          <li>Frequency Range: The desired frequency range for the motor.</li>
+          <li>Features: Communication protocols, safety features, and energy-saving options.</li>
+          <li>Environmental Conditions: Temperature, humidity, and dust in the operating environment.</li>
         </ul>
       </div>
+
       <div className="text-center my-4">
         <button onClick={handleOpenModal} className="bg-blue-500 text-white px-4 py-2 rounded">
           Yes! I am Interested
