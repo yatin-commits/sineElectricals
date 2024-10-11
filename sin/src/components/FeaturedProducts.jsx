@@ -7,10 +7,10 @@ const FeaturedProducts = () => {
       <h1 className='text-4xl text-center mb-8'>Featured Products</h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 m-2'>
         <Products
-          title="VFD Panels"
+          title="VCB"
           imgSrc="./VCB.jpg" // Replace with actual image path
           className="w-full aspect-square max-w-[150px] object-cover"
-          description="High-quality Variable Frequency Drive Panels for efficient motor control."
+          description="High-quality Vacuum Circuit Breakers (VCB) for reliable and efficient switching."
           link="/vcb"
         />
         <Products

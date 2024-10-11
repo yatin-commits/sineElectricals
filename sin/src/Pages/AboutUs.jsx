@@ -12,7 +12,7 @@ const AboutUs = () => {
       <section className="about-us-banner p-4 flex justify-center items-center flex-col text-center">
         <h1 className="text-6xl font-bold font-[poppins] text-black mb-4">Who We Are?</h1>
         <p className="text-xl text-black max-w-3xl">
-          At Sin Engineering, we innovate and bring cutting-edge technology into reality. Our dedicated team strives for perfection, delivering modern solutions for the future.
+          At Sine Electricals, we innovate and bring cutting-edge technology into reality. Our dedicated team strives for perfection, delivering modern solutions for the future.
         </p>
         <Link to="/contact" className="mt-6">
           <button className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition-colors">
@@ -42,7 +42,7 @@ const AboutUs = () => {
       <section className="p-8 text-center bg-gray-100 mt-8">
         <h2 className="text-3xl font-bold mb-6">What Drives Us?</h2>
         <p className="max-w-4xl mx-auto text-gray-600 text-lg">
-          At Sin Engineering, we believe in pushing the boundaries of innovation. Our team is fueled by a desire to revolutionize industries through smart engineering, research, and development. From cutting-edge technology solutions to sustainable practices, we are driven by the power of innovation and passion.
+          At Sine Electricals, we believe in pushing the boundaries of innovation. Our team is fueled by a desire to revolutionize industries through smart engineering, research, and development. From cutting-edge technology solutions to sustainable practices, we are driven by the power of innovation and passion.
         </p>
       </section>
 
