@@ -1,0 +1,73 @@
+/* Custom Styles for the AllProducts Component */
+
+/* Grid Layout for Pinterest-like collage */
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Flexible grid with minimum width */
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .product-card {
+    overflow: hidden;
+  }
+  
+  .product-card-content {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  /* Image Styling */
+  .product-img {
+    width: 100%;
+    height: 250px; /* Fixed height for a uniform layout */
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  /* Title and Text Styling */
+  .product-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styling */
+  .btn-primary-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-primary-custom:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Hover Effect for Cards */
+  .product-card-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
