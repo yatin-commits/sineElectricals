@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from '../components/NavBar';
-import './single.css';
 import Footer from '../components/Footer';
+import InterestedForm from '../components/IntrestedForm'; // Import the InterestedForm component
 
 const Scada = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -122,32 +122,9 @@ const Scada = () => {
         </button>
       </div>
 
-      {/* Modal for the Form */}
-      {isModalOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="bg-white p-6 rounded shadow-md w-[90%] md:w-1/2 lg:w-1/3">
-            <h2 className="text-2xl mb-4">Contact Us</h2>
-            <form>
-              <div className="mb-4">
-                <label className="block mb-1">Name:</label>
-                <input type="text" className="border border-gray-300 rounded p-2 w-full" placeholder="Your Name" required />
-              </div>
-              <div className="mb-4">
-                <label className="block mb-1">Email:</label>
-                <input type="email" className="border border-gray-300 rounded p-2 w-full" placeholder="Your Email" required />
-              </div>
-              <div className="mb-4">
-                <label className="block mb-1">Message:</label>
-                <textarea className="border border-gray-300 rounded p-2 w-full" rows="4" placeholder="Your Message" required></textarea>
-              </div>
-              <div className="flex justify-between">
-                <button type="submit" className="bg-green-500 text-white px-4 py-2 rounded">Send</button>
-                <button type="button" onClick={handleCloseModal} className="bg-red-500 text-white px-4 py-2 rounded">Close</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
+      {/* Modal for the Interested Form */}
+      {isModalOpen && <InterestedForm handleClose={handleCloseModal} />} {/* Use the InterestedForm component */}
+
       <Footer />
     </>
   );

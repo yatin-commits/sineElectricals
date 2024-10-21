@@ -42,7 +42,7 @@ function NavBar() {
 >
   <NavDropdown.Item as={Link} to="/mcc">Motor Control Center (MCC) </NavDropdown.Item>
   <NavDropdown.Item as={Link} to="/vfd">VFD Panel</NavDropdown.Item>
-  <NavDropdown.Item as={Link} to="/it">Low-tension (LT) panels</NavDropdown.Item>
+  <NavDropdown.Item as={Link} to="/lt">Low-tension (LT) panels</NavDropdown.Item>
 </NavDropdown>
 
               

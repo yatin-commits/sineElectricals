@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
-import NavBar from '../components/NavBar'
-import './contact.css'
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com'; // Import EmailJS
+import NavBar from '../components/NavBar';
+import './contact.css';
 import Footer from '../components/Footer';
-
+import dotenv from 'dotenv'
+dotenv.config();
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -10,13 +12,46 @@ const ContactUs = () => {
     message: ''
   });
 
+  const [error, setError] = useState('');
+
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent the default form submission behavior
-    console.log(formData); // Log the form data (this is where you would send the data to the backend)
-    
-    // You can now send the formData to your backend using fetch/axios etc.
-    alert('Message sent successfully!');
+
+    const { name, email, message } = formData;
+
+    // Basic validation
+    if (!name || !email || !message) {
+      setError('Please fill in all fields');
+      return;
+    }
+
+    // Prepare the data for EmailJS
+    const templateParams = {
+      from_name: name,
+      email: email,
+      message: message
+    };
+
+    // Send the email using EmailJS
+    emailjs
+      .send(
+        import.meta.env.VITE_SERVICE_ID, // Access the env variable directly
+        import.meta.env.VITE_TEMPLATE_ID, // Access the env variable directly
+        templateParams,
+        import.meta.env.VITE_USER_ID // Replace with your EmailJS user ID
+      )
+      .then(
+        (result) => {
+          alert('Message sent successfully!');
+          setFormData({ name: '', email: '', message: '' }); // Clear the form
+          setError(''); // Clear any errors
+        },
+        (error) => {
+          setError('Failed to send the message, please try again later.');
+          console.error('EmailJS error:', error);
+        }
+      );
   };
 
   // Update form state when input changes
@@ -35,7 +70,7 @@ const ContactUs = () => {
         <h1 className='text-4xl'>
           Contact Us
         </h1>
-        <div className='flex flex-row w-full justify-evenly temp '>
+        <div className='flex flex-row w-full justify-evenly temp'>
           <div className='w-full p-4 items-center text-center border-r-2 border-black demo'>
             <span className='item-center text-2xl'>Contact Details</span>
             <p className='flex items-center justify-start m-2'>
@@ -51,11 +86,12 @@ const ContactUs = () => {
               <span className='m-3 text-xl'>sineelect@gmail.com</span>
             </p>
           </div>
-          <div className='w-full p-4 items-center text-center  border-black'>
+          <div className='w-full p-4 items-center text-center border-black'>
             <span className='item-center text-2xl'>Get In Touch</span>
-            
+
             {/* Form for Contact */}
             <form onSubmit={handleSubmit} className='flex flex-col space-y-3'>
+              {error && <p className='text-red-500'>{error}</p>}
               <input 
                 type="text" 
                 className='border-black border-1 rounded-sm p-2' 
@@ -91,9 +127,9 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default ContactUs;
