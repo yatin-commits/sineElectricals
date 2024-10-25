@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com'; // Import EmailJS
 
+
 const InterestedForm = ({ handleClose }) => {
   const [formData, setFormData] = useState({
     name: '',

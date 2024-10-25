@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com'; // Import EmailJS
-import dotenv from 'dotenv'
-dotenv.config();
+
 const ContactEmbededForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');  // New state for email

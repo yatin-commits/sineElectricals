@@ -3,8 +3,8 @@ import emailjs from 'emailjs-com'; // Import EmailJS
 import NavBar from '../components/NavBar';
 import './contact.css';
 import Footer from '../components/Footer';
-import dotenv from 'dotenv'
-dotenv.config();
+// import dotenv from 'dotenv'
+// dotenv.config();
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     name: '',
